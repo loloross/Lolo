@@ -1,0 +1,16 @@
+<html>
+
+  <button id="scareBtn" onclick="jumpScare()">Click me to get spooky!</button>
+  <img style="display:none" id="scareImg" width="50%" src="https://m.media-amazon.com/images/M/MV5BMjk5MDllYWItMDhhMC00ODI1LTllMDgtMjMyMzc5MDc3OTZmXkEyXkFqcGdeQXVyMTAwMTYyNjE0._V1_.jpg" />
+
+  <script>
+    function jumpScare(){
+      const btn = document.getElementById('scareBtn');
+      const img = document.getElementById('scareImg');
+      btn.style.display = "none";
+      img.style.display = "block";
+    }
+  </script>
+
+  </body>
+</html>
